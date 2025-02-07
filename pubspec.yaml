@@ -90,8 +90,8 @@ dependencies:
   latlong2: ^0.9.1
   dash_bubble:
     git:
-      url: https://github.com/dhiaCodes/dash_bubble.git
-      ref: bubble-cannot-start-android14
+      url: https://github.com/mg3994/dash_bubble.git
+      ref: main
 
 
 dependency_overrides:

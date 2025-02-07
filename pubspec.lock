@@ -381,11 +381,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: bubble-cannot-start-android14
-      resolved-ref: f49b85ca47531c8c73c63a6354b5b9772e31e454
-      url: "https://github.com/dhiaCodes/dash_bubble.git"
+      ref: main
+      resolved-ref: "17b0031e5b66faa6e6a699ec70fff02b01a0aacf"
+      url: "https://github.com/mg3994/dash_bubble.git"
     source: git
-    version: "2.0.0"
+    version: "0.0.1"
   dbus:
     dependency: transitive
     description:
