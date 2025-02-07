@@ -30,10 +30,72 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  dartz: ^0.10.1
+  get_it: ^8.0.3
+  intl: ^0.20.2
+  shared_preferences: ^2.5.1
+  meta: ^1.15.0
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.11
+  flutter_svg: ^2.0.17
+  carousel_slider_plus: ^7.1.0
+  pin_code_fields: ^8.0.1
+  equatable: ^2.0.7
+  cached_network_image: ^3.4.1
+  image_picker: ^1.1.2
+  image_cropper: ^9.0.0
+  permission_handler: ^11.3.1
+  package_info_plus: ^8.2.0
+  audioplayers: ^6.1.1
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  device_apps: ^2.2.0
+  bubble_head: ^0.0.4
+  uuid: ^4.5.1
+  webview_flutter: ^4.10.0
+  dotted_border: ^2.1.0
+  workmanager: ^0.5.2
+  flutter_inappwebview: ^6.1.5
+  path: ^1.9.0
+  wakelock_plus: ^1.2.10
+  flutter_local_notifications: ^18.0.1
+  flutter_bloc: ^9.0.0
+  shimmer: ^3.0.0
+  connectivity_plus: ^6.1.2
+  google_maps_flutter: ^2.10.0
+  geocoding: ^3.0.0
+  flutter_map: ^8.0.0
+  location: ^8.0.0
+  geolocator: ^13.0.2
+  path_provider: ^2.1.5
+  firebase_core: ^3.11.0
+  firebase_auth: ^5.4.2
+  firebase_database: ^11.3.2
+  firebase_messaging: ^15.2.2
+  firebase_crashlytics: ^4.3.2
+  contacts_service: ^0.6.3
+  slider_button: ^2.1.0
+  animated_toggle_switch: ^0.8.4
+  vector_math: ^2.1.4
+  drift: ^2.24.0
+  drift_flutter: ^0.2.4
+  avatar_glow: ^3.0.1
+  latlong2: ^0.9.1
+  dash_bubble:
+    git:
+      url: https://github.com/dhiaCodes/dash_bubble.git
+      ref: bubble-cannot-start-android14
+
+
+dependency_overrides:
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +107,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  drift_dev: ^2.24.0
+  build_runner: ^2.4.14
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
