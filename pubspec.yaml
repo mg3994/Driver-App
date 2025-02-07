@@ -117,7 +117,8 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
   drift_dev: ^2.24.0
-  build_runner: ^2.4.14
+  # build_runner: ^2.4.14 # can't use both of them => generate: true 
+  intl_utils:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -129,6 +130,13 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/svg/
+    - assets/audio/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -160,3 +168,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
+  
