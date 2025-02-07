@@ -21,8 +21,8 @@ class AppConstants {
   static String mapKey = (Platform.isAndroid)
       ? "AIzaSyAoi9wM6k_nXs7W6-5CLv3MuoEDuWoiRcA"
       : 'ios map key';
-  static const String privacyPolicy = 'your privacy policy url';
-  static const String termsCondition = 'your terms and condition url';
+  static const String privacyPolicy = 'https://webapp.droppingride.com/privacy';
+  static const String termsCondition = 'https://webapp.droppingride.com/terms';
 
   static List<LocaleLanguageList> languageList = [
     LocaleLanguageList(name: 'English', lang: 'en'),
