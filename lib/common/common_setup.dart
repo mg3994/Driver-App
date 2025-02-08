@@ -22,7 +22,8 @@ import 'app_constants.dart';
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 // await FirebaseMessaging.instance.requestPermission();
   if (message.data['push_type'].toString() == 'meta-request') {
-    DeviceApps.openApp('com.restart.driver');
+    DeviceApps.openApp(AppConstants
+        .packageName); // TODO: Please Avoid this, As we may Face issue while publishing packages
   } else {}
 }
 

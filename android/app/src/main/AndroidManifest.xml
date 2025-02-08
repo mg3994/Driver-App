@@ -8,12 +8,12 @@
 <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
 <uses-permission android:name="android.permission.CAMERA"/> 
 <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
 <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
 <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 <uses-permission android:name="android.permission.VIBRATE"/>
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
      <!--#docregion android-queries-->
   <!-- Provide required visibility configuration for API level 30 and above -->
   <queries>
@@ -79,7 +79,7 @@
         </activity>
 
 
-        
+
          <meta-data android:name="com.google.android.geo.API_KEY"
                android:value="AIzaSyAoi9wM6k_nXs7W6-5CLv3MuoEDuWoiRcA"/>
                      
